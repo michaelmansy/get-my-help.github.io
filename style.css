@@ -1,7 +1,18 @@
-body{
-    margin: 0 auto;
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet');
+
+*{
+    box-sizing: border-box;
 }
 
-.nav-link{
-    margin-left: 50%;
+header, section{
+    overflow-x: hidden;
+}
+
+:root{
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+}
+
+body{
+    background: #dd2476;
+    background: var(--bggradient);
 }
